@@ -26,6 +26,7 @@ namespace Ak_CoreApp
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        //Ak - added comment
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
