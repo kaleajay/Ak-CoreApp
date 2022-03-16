@@ -27,6 +27,7 @@ namespace Ak_CoreApp.Pages
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+            //Add get details
         }
     }
 }
