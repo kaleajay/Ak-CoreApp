@@ -15,6 +15,7 @@ namespace Ak_CoreApp.Pages
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
+            //Place Holder for logging
         }
 
         public void OnGet()
